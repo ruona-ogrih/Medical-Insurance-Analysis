@@ -4,7 +4,7 @@ This project explores the factors that drive medical insurance costs using a syn
 
 ---
 
-## 📦 Dataset
+## Dataset
 - **Source**: [Medical Insurance Cost Prediction (Kaggle)][Medical Insurance Cost Prediction (Kaggle)](https://www.kaggle.com/datasets/teertha/ushealthinsurancedataset)
 - **Size**: 1,338 records
 - **Columns**: age, sex, BMI, children, smoker, region, charges
@@ -12,7 +12,7 @@ This project explores the factors that drive medical insurance costs using a syn
 
 ---
 
-## 🔧 Tools Used
+## Tools Used
 - **SQL (MySQL Workbench)** – for data exploration, cleaning, and aggregations
 - **Python (pandas, sklearn)** – for preprocessing and linear regression modeling
 - **Tableau** – for visualizing key findings in an interactive dashboard
@@ -20,7 +20,7 @@ This project explores the factors that drive medical insurance costs using a syn
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 - **Smoking** had the highest impact on charges: smokers paid 3–4x more than non-smokers.
 - **BMI** and **age** also influenced costs, especially when combined with smoking status.
 - The **Southeast** region had the highest average charges among all regions.
@@ -28,7 +28,7 @@ This project explores the factors that drive medical insurance costs using a syn
 
 ---
 
-## 🧾 SQL Sample Queries
+## SQL Sample Queries
 
 **1. Null Check:**
 ```sql
@@ -70,7 +70,7 @@ GROUP BY region;
 
 ---
 
-## 🧠 Python Model Summary
+## Python Model Summary
 Used Linear Regression to predict insurance charges:
 ```python
 model = LinearRegression()
@@ -87,8 +87,8 @@ y_pred = model.predict(X_test)
 
 ---
 
-## 📈 Tableau Dashboard
-🔗 **[View Dashboard on Tableau Public](https://public.tableau.com/app/profile/ruona.ogrih/vizzes)** 
+## Tableau Dashboard
+**[View Dashboard on Tableau Public](https://public.tableau.com/app/profile/ruona.ogrih/vizzes)** 
 
 Includes:
 - BMI vs Charges (Smoker split with trend lines)
@@ -97,17 +97,17 @@ Includes:
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 - No access to clinical data or financial background (e.g. illness history, income, or plan type)
 - Tableau can't model feature interactions
 - Linear Regression is limited and sensitive to outliers
 
 ---
 
-## ✅ Final Reflection
+## Final Reflection
 This project demonstrates the power of combining basic tools to uncover real insights from data. From SQL-based discovery to machine learning in Python and storytelling in Tableau, the end-to-end workflow provided a deep understanding of both the data and the modeling process.
 
 ---
 
-### 🔗 Connect
+### Connect
 Have feedback or ideas for improvement? Feel free to [connect on LinkedIn](https://www.linkedin.com/in/ruona-ogrih-967595230/).
