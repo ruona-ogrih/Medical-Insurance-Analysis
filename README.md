@@ -5,7 +5,7 @@ This project explores the factors that drive medical insurance costs using a syn
 ---
 
 ## Dataset
-- **Source**: [Medical Insurance Cost Prediction (Kaggle)][Medical Insurance Cost Prediction (Kaggle)](https://www.kaggle.com/datasets/teertha/ushealthinsurancedataset)
+- **Source**: [Medical Insurance Cost Prediction (Kaggle)][Medical Insurance Cost Prediction (Kaggle)]https://www.kaggle.com/datasets/rahulvyasm/medical-insurance-cost-prediction
 - **Size**: 1,338 records
 - **Columns**: age, sex, BMI, children, smoker, region, charges
 - **Note**: This dataset is synthetic but mimics real-world insurance pricing behavior.
