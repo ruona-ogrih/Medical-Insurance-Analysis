@@ -88,6 +88,8 @@ y_pred = model.predict(X_test)
 ---
 
 ## Tableau Dashboard
+<img width="675" alt="Screenshot 2025-05-21 at 1 21 30 PM" src="https://github.com/user-attachments/assets/6c445669-32c7-487b-8f1b-e8f1d4b04136" />
+
 **[View Dashboard on Tableau Public](https://public.tableau.com/app/profile/ruona.ogrih/vizzes)** 
 
 Includes:
